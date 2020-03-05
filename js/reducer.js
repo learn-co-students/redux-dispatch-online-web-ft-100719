@@ -16,7 +16,6 @@ function render(){
 
 function dispatch(action){
   state = changeState(state,action)
-  return state
+  render() 
 }
 
-render() 
